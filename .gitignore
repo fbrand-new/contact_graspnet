@@ -3,3 +3,9 @@ results
 **/*.pyc
 **/__pycache__
 .vscode
+poetry.lock
+checkpoints/
+test_data/
+dist/
+contact_graspnet/contact_graspnet.egg-info
+contact_graspnet/config.yaml.bak

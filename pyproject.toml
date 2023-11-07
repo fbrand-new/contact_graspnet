@@ -1,0 +1,27 @@
+[build.system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "contact-graspnet"
+version = "0.0.1"
+
+[tool.setuptools.packages.find]
+where = ["contact_graspnet"]
+
+
+[tool.poetry]
+name = "contact-graspnet"
+version = "0.1.0"
+description = ""
+authors = ["NVLabs"]
+readme = "README.md"
+packages = [{include = "contact_graspnet"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

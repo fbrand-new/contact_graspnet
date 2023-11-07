@@ -1,4 +1,4 @@
-vtk==8.1.0
+vtk
 opencv-python==4.1.2.30
 PyQt5==5.15.6
 h5py==2.10.0
