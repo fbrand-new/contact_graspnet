@@ -4,9 +4,9 @@
 # curl -Ls --compressed  https://github.com/Akianonymus/gdrive-downloader/raw/master/install.sh | sudo sh -s -- --path /usr/local/bin
 
 # Downloads the models data
-gdl 1aHlRwSq4WJ7bzutASKOFUAgVlpKuO9MH -d tmp
+gdl 1YpWo-xr1jGMmE2dVNM8bn1iRsjNS1dV1 -d tmp
 mkdir -p checkpoints
-mv tmp/contact_graspnet_train_and_test/* checkpoints
+mv tmp/*/* checkpoints
 
 # Old directory link, not working anymore (corresponding to the top directory of the original gdrive link)
 # gdl 1tBHKf60K8DLM5arm-Chyf7jxkzOr5zGl -d tmp
