@@ -11,5 +11,5 @@ easydict==1.9
 tensorboardX==2.0
 Rtree==0.9.7
 protobuf==3.20.*
-tensorflow-gpu==2.2.0
+tensorflow==2.4.0
 opencv-python
