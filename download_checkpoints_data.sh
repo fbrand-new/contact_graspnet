@@ -5,7 +5,8 @@
 
 # Downloads the models data
 gdl 1aHlRwSq4WJ7bzutASKOFUAgVlpKuO9MH -d tmp
-mv tmp/checkpoints/contact_graspnet_models/* checkpoints
+mkdir -p checkpoints
+mv tmp/contact_graspnet_train_and_test/* checkpoints
 
 # Old directory link, not working anymore (corresponding to the top directory of the original gdrive link)
 # gdl 1tBHKf60K8DLM5arm-Chyf7jxkzOr5zGl -d tmp
@@ -14,4 +15,4 @@ mv tmp/checkpoints/contact_graspnet_models/* checkpoints
 # gdl 1v0_QMTUIEOcu09Int5V6N2Nuq7UCtuAA -d tmp
 # mv tmp/test_data/* test_data
 
-rm -rf tmp/checkpoints tmp/test_data
+rm -rf tmp
